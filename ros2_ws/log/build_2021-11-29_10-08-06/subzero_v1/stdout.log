@@ -1,0 +1,40 @@
+running develop
+Removing /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero-v1.egg-link (link to .)
+running egg_info
+writing ../../build/subzero_v1/subzero_v1.egg-info/PKG-INFO
+writing dependency_links to ../../build/subzero_v1/subzero_v1.egg-info/dependency_links.txt
+writing entry points to ../../build/subzero_v1/subzero_v1.egg-info/entry_points.txt
+writing requirements to ../../build/subzero_v1/subzero_v1.egg-info/requires.txt
+writing top-level names to ../../build/subzero_v1/subzero_v1.egg-info/top_level.txt
+reading manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+writing manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying subzero_v1/nodeR9sGPS.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+copying subzero_v1/nodeArduino.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+copying subzero_v1/nodeARK.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+copying subzero_v1/nodeRadio.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+running install
+running install_lib
+creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/nodeR9sGPS.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/nodeArduino.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/__init__.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/nodeARK.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/nodeRadio.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/nodeR9sGPS.py to nodeR9sGPS.cpython-38.pyc
+byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/nodeArduino.py to nodeArduino.cpython-38.pyc
+byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/nodeARK.py to nodeARK.cpython-38.pyc
+byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/nodeRadio.py to nodeRadio.cpython-38.pyc
+running install_data
+copying package.xml -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+copying launch/subzero_v1.launch.py -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+running install_egg_info
+Copying ../../build/subzero_v1/subzero_v1.egg-info to /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1-0.0.0-py3.8.egg-info
+running install_scripts
+Installing nodeARK script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing nodeArduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing nodeR9sGPS script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing nodeRadio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+writing list of installed files to '/home/subzero/ros2_ws/build/subzero_v1/install.log'

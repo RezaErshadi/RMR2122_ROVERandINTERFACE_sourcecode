@@ -1,0 +1,524 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (interfaces_subzero) JobQueued: {'identifier': 'interfaces_subzero', 'dependencies': OrderedDict()}
+[0.000878] (subzero_v1) JobQueued: {'identifier': 'subzero_v1', 'dependencies': OrderedDict()}
+[0.000905] (interfaces_subzero) JobStarted: {'identifier': 'interfaces_subzero'}
+[0.015769] (subzero_v1) JobStarted: {'identifier': 'subzero_v1'}
+[0.023762] (interfaces_subzero) JobProgress: {'identifier': 'interfaces_subzero', 'progress': 'cmake'}
+[0.024914] (interfaces_subzero) Command: {'cmd': ['/usr/bin/cmake', '/home/subzero/ros2_ws/src/interfaces_subzero', '-DCMAKE_INSTALL_PREFIX=/home/subzero/ros2_ws/install/interfaces_subzero'], 'cwd': '/home/subzero/ros2_ws/build/interfaces_subzero', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'subzero'), ('SSH_CLIENT', '192.168.30.142 64536 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subzero/ros2_ws/install/interfaces_subzero/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/subzero'), ('OLDPWD', '/home/subzero'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/subzero/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'subzero'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/subzero/.local/bin:/home/subzero/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/subzero/ros2_ws/install/subzero_v1:/home/subzero/ros2_ws/install/interfaces_subzero:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/subzero/ros2_ws/build/interfaces_subzero'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.30.142 64536 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/subzero/ros2_ws/build/subzero_v1:/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:/home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/subzero/ros2_ws/install/interfaces_subzero:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy')]), 'shell': False}
+[0.077320] (interfaces_subzero) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099690] (-) TimerEvent: {}
+[0.104486] (interfaces_subzero) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.104665] (interfaces_subzero) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199815] (-) TimerEvent: {}
+[0.232444] (subzero_v1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/subzero/ros2_ws/install/subzero_v1', '--uninstall', '--editable', '--build-directory', '/home/subzero/ros2_ws/build/subzero_v1/build'], 'cwd': '/home/subzero/ros2_ws/build/subzero_v1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'subzero', 'SSH_CLIENT': '192.168.30.142 64536 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/subzero/ros2_ws/install/interfaces_subzero/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/subzero', 'OLDPWD': '/home/subzero', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/subzero/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'subzero', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/subzero/.local/bin:/home/subzero/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/subzero/ros2_ws/install/subzero_v1:/home/subzero/ros2_ws/install/interfaces_subzero:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/subzero/ros2_ws/build/subzero_v1', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.30.142 64536 192.168.30.133 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:/home/subzero/ros2_ws/build/subzero_v1:/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:/home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/subzero/ros2_ws/install/interfaces_subzero'}, 'shell': False}
+[0.260836] (interfaces_subzero) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.284984] (interfaces_subzero) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.289279] (interfaces_subzero) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.294790] (interfaces_subzero) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299931] (-) TimerEvent: {}
+[0.400248] (-) TimerEvent: {}
+[0.431946] (subzero_v1) StdoutLine: {'line': b'running develop\n'}
+[0.433602] (interfaces_subzero) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.482760] (interfaces_subzero) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.500342] (-) TimerEvent: {}
+[0.542832] (subzero_v1) StdoutLine: {'line': b'Removing /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero-v1.egg-link (link to .)\n'}
+[0.559850] (subzero_v1) CommandEnded: {'returncode': 0}
+[0.560372] (subzero_v1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/subzero_v1', 'build', '--build-base', '/home/subzero/ros2_ws/build/subzero_v1/build', 'install', '--prefix', '/home/subzero/ros2_ws/install/subzero_v1', '--record', '/home/subzero/ros2_ws/build/subzero_v1/install.log', '--single-version-externally-managed'], 'cwd': '/home/subzero/ros2_ws/src/subzero_v1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'subzero', 'SSH_CLIENT': '192.168.30.142 64536 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/subzero/ros2_ws/install/interfaces_subzero/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/subzero', 'OLDPWD': '/home/subzero', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/subzero/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'subzero', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/subzero/.local/bin:/home/subzero/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/subzero/ros2_ws/install/subzero_v1:/home/subzero/ros2_ws/install/interfaces_subzero:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/subzero/ros2_ws/build/subzero_v1', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.30.142 64536 192.168.30.133 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:/home/subzero/ros2_ws/build/subzero_v1:/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:/home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/subzero/ros2_ws/install/interfaces_subzero'}, 'shell': False}
+[0.600490] (-) TimerEvent: {}
+[0.636035] (interfaces_subzero) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.700603] (-) TimerEvent: {}
+[0.725808] (interfaces_subzero) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.736752] (interfaces_subzero) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.741192] (subzero_v1) StdoutLine: {'line': b'running egg_info\n'}
+[0.741796] (subzero_v1) StdoutLine: {'line': b'writing ../../build/subzero_v1/subzero_v1.egg-info/PKG-INFO\n'}
+[0.742123] (subzero_v1) StdoutLine: {'line': b'writing dependency_links to ../../build/subzero_v1/subzero_v1.egg-info/dependency_links.txt\n'}
+[0.742446] (subzero_v1) StdoutLine: {'line': b'writing entry points to ../../build/subzero_v1/subzero_v1.egg-info/entry_points.txt\n'}
+[0.742729] (subzero_v1) StdoutLine: {'line': b'writing requirements to ../../build/subzero_v1/subzero_v1.egg-info/requires.txt\n'}
+[0.743014] (subzero_v1) StdoutLine: {'line': b'writing top-level names to ../../build/subzero_v1/subzero_v1.egg-info/top_level.txt\n'}
+[0.764160] (interfaces_subzero) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.765063] (interfaces_subzero) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.781550] (subzero_v1) StdoutLine: {'line': b"reading manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'\n"}
+[0.782619] (subzero_v1) StdoutLine: {'line': b"writing manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'\n"}
+[0.782933] (subzero_v1) StdoutLine: {'line': b'running build\n'}
+[0.783051] (subzero_v1) StdoutLine: {'line': b'running build_py\n'}
+[0.783775] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/Radio.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.784066] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/Garmin.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.784289] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/ManualDrive.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.784583] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/__init__.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.784807] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/WriteSpeed.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.784928] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/Arduino.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.785017] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/AutoDrive.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.785114] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/Trimble.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.785269] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/ApRES.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.785492] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/Telemetry.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1\n'}
+[0.785806] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/submodules/DeltaTime.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules\n'}
+[0.786001] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/submodules/__init__.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules\n'}
+[0.786233] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/submodules/apreshttp.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules\n'}
+[0.786450] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/submodules/constrain.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules\n'}
+[0.786660] (subzero_v1) StdoutLine: {'line': b'copying subzero_v1/submodules/ClassGpsStreamer.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules\n'}
+[0.786930] (subzero_v1) StdoutLine: {'line': b'running install\n'}
+[0.787879] (subzero_v1) StdoutLine: {'line': b'running install_lib\n'}
+[0.788825] (subzero_v1) StdoutLine: {'line': b'creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.789068] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Radio.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.789178] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Garmin.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.789262] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Dr.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.789411] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/AutoPilot.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.789757] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/ManualDrive.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.789912] (subzero_v1) StdoutLine: {'line': b'creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules\n'}
+[0.790059] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/DeltaTime.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules\n'}
+[0.790129] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/__init__.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules\n'}
+[0.790203] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/apreshttp.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules\n'}
+[0.790303] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/constrain.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules\n'}
+[0.790461] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/ClassGpsStreamer.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules\n'}
+[0.790601] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/__init__.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.790680] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/WriteSpeed.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.790750] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Arduino.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.790818] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/ARK.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.791038] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Driving.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.791539] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Pilot.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.791939] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/AutoDrive.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.792291] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Trimble.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.792365] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/ApRES.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.792428] (subzero_v1) StdoutLine: {'line': b'copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Telemetry.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1\n'}
+[0.792747] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Radio.py to Radio.cpython-38.pyc\n'}
+[0.793590] (interfaces_subzero) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.793672] (interfaces_subzero) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.793733] (interfaces_subzero) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.794310] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Garmin.py to Garmin.cpython-38.pyc\n'}
+[0.794997] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Dr.py to Dr.cpython-38.pyc\n'}
+[0.795664] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/AutoPilot.py to AutoPilot.cpython-38.pyc\n'}
+[0.798034] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/ManualDrive.py to ManualDrive.cpython-38.pyc\n'}
+[0.798574] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/DeltaTime.py to DeltaTime.cpython-38.pyc\n'}
+[0.798833] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/__init__.py to __init__.cpython-38.pyc\n'}
+[0.799062] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/apreshttp.py to apreshttp.cpython-38.pyc\n'}
+[0.800724] (-) TimerEvent: {}
+[0.803868] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/constrain.py to constrain.cpython-38.pyc\n'}
+[0.804147] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/ClassGpsStreamer.py to ClassGpsStreamer.cpython-38.pyc\n'}
+[0.804706] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/__init__.py to __init__.cpython-38.pyc\n'}
+[0.804977] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/WriteSpeed.py to WriteSpeed.cpython-38.pyc\n'}
+[0.805649] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Arduino.py to Arduino.cpython-38.pyc\n'}
+[0.806181] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/ARK.py to ARK.cpython-38.pyc\n'}
+[0.806883] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Driving.py to Driving.cpython-38.pyc\n'}
+[0.809849] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Pilot.py to Pilot.cpython-38.pyc\n'}
+[0.810363] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/AutoDrive.py to AutoDrive.cpython-38.pyc\n'}
+[0.812512] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Trimble.py to Trimble.cpython-38.pyc\n'}
+[0.813245] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/ApRES.py to ApRES.cpython-38.pyc\n'}
+[0.814160] (subzero_v1) StdoutLine: {'line': b'byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Telemetry.py to Telemetry.cpython-38.pyc\n'}
+[0.814538] (interfaces_subzero) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.815164] (subzero_v1) StdoutLine: {'line': b'running install_data\n'}
+[0.815904] (subzero_v1) StdoutLine: {'line': b'copying package.xml -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1\n'}
+[0.816230] (subzero_v1) StdoutLine: {'line': b'copying launch/subzero_v1.launch.py -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1\n'}
+[0.816314] (subzero_v1) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.817723] (subzero_v1) StdoutLine: {'line': b'Copying ../../build/subzero_v1/subzero_v1.egg-info to /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1-0.0.0-py3.8.egg-info\n'}
+[0.818537] (subzero_v1) StdoutLine: {'line': b'running install_scripts\n'}
+[0.834082] (subzero_v1) StdoutLine: {'line': b'Installing ApRES script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.834657] (subzero_v1) StdoutLine: {'line': b'Installing Arduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.835180] (subzero_v1) StdoutLine: {'line': b'Installing AutoDrive script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.835338] (subzero_v1) StdoutLine: {'line': b'Installing Garmin script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.835422] (subzero_v1) StdoutLine: {'line': b'Installing ManualDrive script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.835514] (subzero_v1) StdoutLine: {'line': b'Installing Radio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.835596] (subzero_v1) StdoutLine: {'line': b'Installing Telemetry script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.835660] (subzero_v1) StdoutLine: {'line': b'Installing Trimble script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.835724] (subzero_v1) StdoutLine: {'line': b'Installing WriteSpeed script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1\n'}
+[0.836028] (subzero_v1) StdoutLine: {'line': b"writing list of installed files to '/home/subzero/ros2_ws/build/subzero_v1/install.log'\n"}
+[0.843045] (interfaces_subzero) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.845207] (interfaces_subzero) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.846393] (interfaces_subzero) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.855080] (interfaces_subzero) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.856014] (subzero_v1) CommandEnded: {'returncode': 0}
+[0.875380] (subzero_v1) JobEnded: {'identifier': 'subzero_v1', 'rc': 0}
+[0.900910] (-) TimerEvent: {}
+[0.951655] (interfaces_subzero) StdoutLine: {'line': b'-- Generating done\n'}
+[0.954327] (interfaces_subzero) StdoutLine: {'line': b'-- Build files have been written to: /home/subzero/ros2_ws/build/interfaces_subzero\n'}
+[0.960610] (interfaces_subzero) CommandEnded: {'returncode': 0}
+[0.961104] (interfaces_subzero) JobProgress: {'identifier': 'interfaces_subzero', 'progress': 'build'}
+[0.961646] (interfaces_subzero) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subzero/ros2_ws/build/interfaces_subzero', '--', '-j8', '-l8'], 'cwd': '/home/subzero/ros2_ws/build/interfaces_subzero', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'subzero'), ('SSH_CLIENT', '192.168.30.142 64536 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subzero/ros2_ws/install/interfaces_subzero/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/subzero'), ('OLDPWD', '/home/subzero'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/subzero/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'subzero'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/subzero/.local/bin:/home/subzero/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/subzero/ros2_ws/install/subzero_v1:/home/subzero/ros2_ws/install/interfaces_subzero:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/subzero/ros2_ws/build/interfaces_subzero'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.30.142 64536 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/subzero/ros2_ws/build/subzero_v1:/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:/home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/subzero/ros2_ws/install/interfaces_subzero:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy')]), 'shell': False}
+[0.996978] (interfaces_subzero) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.001021] (-) TimerEvent: {}
+[1.006667] (interfaces_subzero) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.101150] (-) TimerEvent: {}
+[1.201449] (-) TimerEvent: {}
+[1.301728] (-) TimerEvent: {}
+[1.402027] (-) TimerEvent: {}
+[1.502303] (-) TimerEvent: {}
+[1.518950] (interfaces_subzero) StdoutLine: {'line': b'[  2%] Built target interfaces_subzero__cpp\n'}
+[1.550701] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_generator_c\x1b[0m\n'}
+[1.560882] (interfaces_subzero) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.561621] (interfaces_subzero) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.563007] (interfaces_subzero) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.568697] (interfaces_subzero) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/msg/detail/my_gp_smsg__functions.c.o\x1b[0m\n'}
+[1.569050] (interfaces_subzero) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/srv/detail/ap_res_conf__functions.c.o\x1b[0m\n'}
+[1.569194] (interfaces_subzero) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/msg/detail/telemetrymsg__functions.c.o\x1b[0m\n'}
+[1.569321] (interfaces_subzero) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/srv/detail/send_string__functions.c.o\x1b[0m\n'}
+[1.569458] (interfaces_subzero) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/srv/detail/speed_values__functions.c.o\x1b[0m\n'}
+[1.602396] (-) TimerEvent: {}
+[1.702666] (-) TimerEvent: {}
+[1.777864] (interfaces_subzero) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/srv/detail/next_target__functions.c.o\x1b[0m\n'}
+[1.802768] (-) TimerEvent: {}
+[1.819607] (interfaces_subzero) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libinterfaces_subzero__rosidl_generator_c.so\x1b[0m\n'}
+[1.865363] (interfaces_subzero) StdoutLine: {'line': b'[ 16%] Built target interfaces_subzero__rosidl_generator_c\n'}
+[1.876728] (interfaces_subzero) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.879524] (interfaces_subzero) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.902873] (-) TimerEvent: {}
+[1.996490] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.002969] (-) TimerEvent: {}
+[2.012981] (interfaces_subzero) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/msg/my_gp_smsg__type_support.cpp.o\x1b[0m\n'}
+[2.013231] (interfaces_subzero) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/srv/ap_res_conf__type_support.cpp.o\x1b[0m\n'}
+[2.013356] (interfaces_subzero) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/msg/telemetrymsg__type_support.cpp.o\x1b[0m\n'}
+[2.013600] (interfaces_subzero) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/srv/send_string__type_support.cpp.o\x1b[0m\n'}
+[2.103060] (-) TimerEvent: {}
+[2.150768] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.168471] (interfaces_subzero) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/msg/detail/my_gp_smsg__type_support.cpp.o\x1b[0m\n'}
+[2.203156] (-) TimerEvent: {}
+[2.288252] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.303273] (-) TimerEvent: {}
+[2.317260] (interfaces_subzero) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/msg/detail/dds_fastrtps/my_gp_smsg__type_support.cpp.o\x1b[0m\n'}
+[2.403373] (-) TimerEvent: {}
+[2.503788] (-) TimerEvent: {}
+[2.534245] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_c\x1b[0m\n'}
+[2.554117] (interfaces_subzero) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/msg/my_gp_smsg__type_support.cpp.o\x1b[0m\n'}
+[2.603886] (-) TimerEvent: {}
+[2.619141] (interfaces_subzero) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/msg/telemetrymsg__type_support.cpp.o\x1b[0m\n'}
+[2.621162] (interfaces_subzero) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/msg/detail/dds_fastrtps/telemetrymsg__type_support.cpp.o\x1b[0m\n'}
+[2.633397] (interfaces_subzero) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/srv/speed_values__type_support.cpp.o\x1b[0m\n'}
+[2.634543] (interfaces_subzero) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/srv/detail/dds_fastrtps/send_string__type_support.cpp.o\x1b[0m\n'}
+[2.646315] (interfaces_subzero) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/srv/next_target__type_support.cpp.o\x1b[0m\n'}
+[2.662436] (interfaces_subzero) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/srv/send_string__type_support.cpp.o\x1b[0m\n'}
+[2.662702] (interfaces_subzero) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/msg/detail/telemetrymsg__type_support.cpp.o\x1b[0m\n'}
+[2.703993] (-) TimerEvent: {}
+[2.710410] (interfaces_subzero) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/srv/ap_res_conf__type_support.cpp.o\x1b[0m\n'}
+[2.758418] (interfaces_subzero) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/srv/speed_values__type_support.cpp.o\x1b[0m\n'}
+[2.764105] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.785621] (interfaces_subzero) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/msg/detail/my_gp_smsg__type_support.c.o\x1b[0m\n'}
+[2.804104] (-) TimerEvent: {}
+[2.805546] (interfaces_subzero) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/srv/next_target__type_support.cpp.o\x1b[0m\n'}
+[2.845022] (interfaces_subzero) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/msg/detail/telemetrymsg__type_support.c.o\x1b[0m\n'}
+[2.853138] (interfaces_subzero) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.893172] (interfaces_subzero) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/srv/detail/send_string__type_support.c.o\x1b[0m\n'}
+[2.904217] (-) TimerEvent: {}
+[2.920233] (interfaces_subzero) StdoutLine: {'line': b'[ 49%] Built target interfaces_subzero__rosidl_typesupport_c\n'}
+[2.933543] (interfaces_subzero) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/srv/detail/ap_res_conf__type_support.c.o\x1b[0m\n'}
+[2.947742] (interfaces_subzero) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/srv/detail/send_string__type_support.cpp.o\x1b[0m\n'}
+[2.989266] (interfaces_subzero) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/srv/detail/speed_values__type_support.c.o\x1b[0m\n'}
+[3.004326] (-) TimerEvent: {}
+[3.042438] (interfaces_subzero) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/srv/detail/next_target__type_support.c.o\x1b[0m\n'}
+[3.075148] (interfaces_subzero) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/srv/detail/dds_fastrtps/ap_res_conf__type_support.cpp.o\x1b[0m\n'}
+[3.094266] (interfaces_subzero) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/srv/detail/dds_fastrtps/speed_values__type_support.cpp.o\x1b[0m\n'}
+[3.094515] (interfaces_subzero) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libinterfaces_subzero__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.104432] (-) TimerEvent: {}
+[3.140296] (interfaces_subzero) StdoutLine: {'line': b'[ 59%] Built target interfaces_subzero__rosidl_typesupport_introspection_c\n'}
+[3.143477] (interfaces_subzero) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.152715] (interfaces_subzero) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/srv/detail/dds_fastrtps/next_target__type_support.cpp.o\x1b[0m\n'}
+[3.169687] (interfaces_subzero) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/srv/detail/ap_res_conf__type_support.cpp.o\x1b[0m\n'}
+[3.204546] (-) TimerEvent: {}
+[3.219340] (interfaces_subzero) StdoutLine: {'line': b'[ 63%] Built target interfaces_subzero__rosidl_typesupport_cpp\n'}
+[3.233187] (interfaces_subzero) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/srv/detail/speed_values__type_support.cpp.o\x1b[0m\n'}
+[3.304662] (-) TimerEvent: {}
+[3.326762] (interfaces_subzero) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/srv/detail/next_target__type_support.cpp.o\x1b[0m\n'}
+[3.404773] (-) TimerEvent: {}
+[3.505243] (-) TimerEvent: {}
+[3.605605] (-) TimerEvent: {}
+[3.705889] (-) TimerEvent: {}
+[3.723367] (interfaces_subzero) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.801704] (interfaces_subzero) StdoutLine: {'line': b'[ 67%] Built target interfaces_subzero__rosidl_typesupport_introspection_cpp\n'}
+[3.805974] (-) TimerEvent: {}
+[3.824610] (interfaces_subzero) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.906102] (-) TimerEvent: {}
+[3.925605] (interfaces_subzero) StdoutLine: {'line': b'[ 69%] Built target interfaces_subzero__rosidl_typesupport_fastrtps_cpp\n'}
+[3.957293] (interfaces_subzero) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.006228] (-) TimerEvent: {}
+[4.106514] (-) TimerEvent: {}
+[4.206785] (-) TimerEvent: {}
+[4.307031] (-) TimerEvent: {}
+[4.407374] (-) TimerEvent: {}
+[4.409058] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.436638] (interfaces_subzero) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/msg/detail/telemetrymsg__type_support_c.cpp.o\x1b[0m\n'}
+[4.438631] (interfaces_subzero) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/srv/detail/speed_values__type_support_c.cpp.o\x1b[0m\n'}
+[4.438893] (interfaces_subzero) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/msg/detail/my_gp_smsg__type_support_c.cpp.o\x1b[0m\n'}
+[4.439447] (interfaces_subzero) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/srv/detail/send_string__type_support_c.cpp.o\x1b[0m\n'}
+[4.439907] (interfaces_subzero) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/srv/detail/ap_res_conf__type_support_c.cpp.o\x1b[0m\n'}
+[4.440126] (interfaces_subzero) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/srv/detail/next_target__type_support_c.cpp.o\x1b[0m\n'}
+[4.507503] (-) TimerEvent: {}
+[4.607872] (-) TimerEvent: {}
+[4.708195] (-) TimerEvent: {}
+[4.808531] (-) TimerEvent: {}
+[4.908816] (-) TimerEvent: {}
+[5.000009] (interfaces_subzero) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.008911] (-) TimerEvent: {}
+[5.068344] (interfaces_subzero) StdoutLine: {'line': b'[ 80%] Built target interfaces_subzero__rosidl_typesupport_fastrtps_c\n'}
+[5.109016] (-) TimerEvent: {}
+[5.109252] (interfaces_subzero) StdoutLine: {'line': b'[ 80%] Built target interfaces_subzero\n'}
+[5.139480] (interfaces_subzero) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.209139] (-) TimerEvent: {}
+[5.309448] (-) TimerEvent: {}
+[5.409696] (-) TimerEvent: {}
+[5.509961] (-) TimerEvent: {}
+[5.610219] (-) TimerEvent: {}
+[5.710485] (-) TimerEvent: {}
+[5.810748] (-) TimerEvent: {}
+[5.910996] (-) TimerEvent: {}
+[6.011231] (-) TimerEvent: {}
+[6.081143] (interfaces_subzero) StdoutLine: {'line': b'[ 81%] Built target interfaces_subzero__py\n'}
+[6.111329] (-) TimerEvent: {}
+[6.123777] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__python\x1b[0m\n'}
+[6.150125] (interfaces_subzero) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/msg/_telemetrymsg_s.c.o\x1b[0m\n'}
+[6.151850] (interfaces_subzero) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/srv/_speed_values_s.c.o\x1b[0m\n'}
+[6.152293] (interfaces_subzero) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/msg/_my_gp_smsg_s.c.o\x1b[0m\n'}
+[6.152543] (interfaces_subzero) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/srv/_send_string_s.c.o\x1b[0m\n'}
+[6.152976] (interfaces_subzero) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/srv/_ap_res_conf_s.c.o\x1b[0m\n'}
+[6.153386] (interfaces_subzero) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/srv/_next_target_s.c.o\x1b[0m\n'}
+[6.211453] (-) TimerEvent: {}
+[6.311823] (-) TimerEvent: {}
+[6.317290] (interfaces_subzero) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces_subzero/libinterfaces_subzero__python.so\x1b[0m\n'}
+[6.352550] (interfaces_subzero) StdoutLine: {'line': b'[ 91%] Built target interfaces_subzero__python\n'}
+[6.363910] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.364118] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.364264] (interfaces_subzero) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.380225] (interfaces_subzero) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces_subzero/_interfaces_subzero_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.381357] (interfaces_subzero) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces_subzero/_interfaces_subzero_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.382088] (interfaces_subzero) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces_subzero/_interfaces_subzero_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.411935] (-) TimerEvent: {}
+[6.497266] (interfaces_subzero) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.497438] (interfaces_subzero) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.497528] (interfaces_subzero) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.512054] (-) TimerEvent: {}
+[6.527856] (interfaces_subzero) StdoutLine: {'line': b'[100%] Built target interfaces_subzero__rosidl_typesupport_c__pyext\n'}
+[6.528255] (interfaces_subzero) StdoutLine: {'line': b'[100%] Built target interfaces_subzero__rosidl_typesupport_introspection_c__pyext\n'}
+[6.554310] (interfaces_subzero) StdoutLine: {'line': b'[100%] Built target interfaces_subzero__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.564852] (interfaces_subzero) CommandEnded: {'returncode': 0}
+[6.612228] (-) TimerEvent: {}
+[6.652826] (interfaces_subzero) JobProgress: {'identifier': 'interfaces_subzero', 'progress': 'install'}
+[6.662367] (interfaces_subzero) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subzero/ros2_ws/build/interfaces_subzero'], 'cwd': '/home/subzero/ros2_ws/build/interfaces_subzero', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'subzero'), ('SSH_CLIENT', '192.168.30.142 64536 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subzero/ros2_ws/install/interfaces_subzero/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/subzero'), ('OLDPWD', '/home/subzero'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/subzero/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'subzero'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/subzero/.local/bin:/home/subzero/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/subzero/ros2_ws/install/subzero_v1:/home/subzero/ros2_ws/install/interfaces_subzero:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/subzero/ros2_ws/build/interfaces_subzero'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.30.142 64536 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/subzero/ros2_ws/build/subzero_v1:/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:/home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/subzero/ros2_ws/install/interfaces_subzero:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy')]), 'shell': False}
+[6.669257] (interfaces_subzero) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.669801] (interfaces_subzero) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.698875] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/ament_index/resource_index/rosidl_interfaces/interfaces_subzero\n'}
+[6.701302] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__functions.h\n'}
+[6.701774] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__struct.h\n'}
+[6.702168] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__type_support.h\n'}
+[6.702520] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__functions.h\n'}
+[6.702880] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__struct.h\n'}
+[6.703219] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__type_support.h\n'}
+[6.703907] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__functions.h\n'}
+[6.704275] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__struct.h\n'}
+[6.704624] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__type_support.h\n'}
+[6.704993] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__functions.h\n'}
+[6.705380] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__struct.h\n'}
+[6.705755] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__type_support.h\n'}
+[6.706107] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__functions.h\n'}
+[6.706446] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__struct.h\n'}
+[6.706799] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__type_support.h\n'}
+[6.707135] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__functions.h\n'}
+[6.707539] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__struct.h\n'}
+[6.707926] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__type_support.h\n'}
+[6.708256] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__functions.h\n'}
+[6.708752] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__struct.h\n'}
+[6.709142] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__type_support.h\n'}
+[6.709536] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/gg_amsg.h\n'}
+[6.709924] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_garmin_msg.h\n'}
+[6.710433] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_gp_smsg.h\n'}
+[6.710815] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_trimble_msg.h\n'}
+[6.711185] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/r9s_gps.h\n'}
+[6.711602] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rm_cmsg.h\n'}
+[6.711954] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.712275] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/telemetrymsg.h\n'}
+[6.712374] (-) TimerEvent: {}
+[6.712897] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/ap_res_conf.h\n'}
+[6.713674] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__functions.h\n'}
+[6.714233] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__struct.h\n'}
+[6.714571] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__type_support.h\n'}
+[6.715007] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__functions.h\n'}
+[6.715379] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__struct.h\n'}
+[6.715756] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__type_support.h\n'}
+[6.716120] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__functions.h\n'}
+[6.716493] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__struct.h\n'}
+[6.716786] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__type_support.h\n'}
+[6.717149] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__functions.h\n'}
+[6.717509] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__struct.h\n'}
+[6.717944] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__type_support.h\n'}
+[6.718299] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/next_target.h\n'}
+[6.718624] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/send_string.h\n'}
+[6.719190] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/speed_values.h\n'}
+[6.719996] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/library_path.sh\n'}
+[6.720332] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/library_path.dsv\n'}
+[6.721700] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.722092] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.722471] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.722869] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.723193] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__rosidl_typesupport_fastrtps_c.h\n'}
+[6.723694] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.724249] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.724609] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.724984] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__rosidl_typesupport_fastrtps_c.h\n'}
+[6.725315] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__rosidl_typesupport_fastrtps_c.h\n'}
+[6.725720] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__rosidl_typesupport_fastrtps_c.h\n'}
+[6.726119] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__rosidl_typesupport_fastrtps_c.h\n'}
+[6.726636] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_fastrtps_c.so\n'}
+[6.728084] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.728490] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.728866] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.729274] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.729629] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.730022] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.730665] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.731042] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.731387] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.731786] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.732111] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.732557] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.733276] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.734303] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__rosidl_typesupport_introspection_c.h\n'}
+[6.734725] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__rosidl_typesupport_introspection_c.h\n'}
+[6.735127] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__rosidl_typesupport_introspection_c.h\n'}
+[6.735727] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__rosidl_typesupport_introspection_c.h\n'}
+[6.736100] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__rosidl_typesupport_introspection_c.h\n'}
+[6.736492] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__rosidl_typesupport_introspection_c.h\n'}
+[6.736865] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__rosidl_typesupport_introspection_c.h\n'}
+[6.737237] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.737565] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__rosidl_typesupport_introspection_c.h\n'}
+[6.737946] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__rosidl_typesupport_introspection_c.h\n'}
+[6.738486] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__rosidl_typesupport_introspection_c.h\n'}
+[6.738940] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__rosidl_typesupport_introspection_c.h\n'}
+[6.740327] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__builder.hpp\n'}
+[6.740717] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__struct.hpp\n'}
+[6.741112] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__traits.hpp\n'}
+[6.741523] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__builder.hpp\n'}
+[6.742081] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__struct.hpp\n'}
+[6.742466] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__traits.hpp\n'}
+[6.742894] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__builder.hpp\n'}
+[6.743278] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__struct.hpp\n'}
+[6.743682] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__traits.hpp\n'}
+[6.744084] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__builder.hpp\n'}
+[6.744449] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__struct.hpp\n'}
+[6.745116] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__traits.hpp\n'}
+[6.745484] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__builder.hpp\n'}
+[6.745813] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__struct.hpp\n'}
+[6.746169] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__traits.hpp\n'}
+[6.746551] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__builder.hpp\n'}
+[6.747008] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__struct.hpp\n'}
+[6.747403] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__traits.hpp\n'}
+[6.747951] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__builder.hpp\n'}
+[6.748276] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__struct.hpp\n'}
+[6.748724] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__traits.hpp\n'}
+[6.749060] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/gg_amsg.hpp\n'}
+[6.749434] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_garmin_msg.hpp\n'}
+[6.749807] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_gp_smsg.hpp\n'}
+[6.750217] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_trimble_msg.hpp\n'}
+[6.750571] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/r9s_gps.hpp\n'}
+[6.750913] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rm_cmsg.hpp\n'}
+[6.751277] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/telemetrymsg.hpp\n'}
+[6.751660] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/ap_res_conf.hpp\n'}
+[6.752264] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__builder.hpp\n'}
+[6.752642] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__struct.hpp\n'}
+[6.752965] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__traits.hpp\n'}
+[6.753338] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__builder.hpp\n'}
+[6.753694] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__struct.hpp\n'}
+[6.754100] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__traits.hpp\n'}
+[6.754462] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__builder.hpp\n'}
+[6.754787] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__struct.hpp\n'}
+[6.755165] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__traits.hpp\n'}
+[6.755527] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__builder.hpp\n'}
+[6.755966] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__struct.hpp\n'}
+[6.756338] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__traits.hpp\n'}
+[6.756650] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/next_target.hpp\n'}
+[6.757006] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/send_string.hpp\n'}
+[6.757439] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/speed_values.hpp\n'}
+[6.758490] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.758927] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.759270] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.759756] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.760298] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.760735] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.761110] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/telemetrymsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.761446] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.761888] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/next_target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.762474] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.762855] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/speed_values__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.763405] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/pythonpath.sh\n'}
+[6.763752] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/pythonpath.dsv\n'}
+[6.764090] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/__init__.py\n'}
+[6.764781] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/__init__.py\n'}
+[6.765273] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_gg_amsg.py\n'}
+[6.765713] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_my_garmin_msg.py\n'}
+[6.765913] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_my_gp_smsg.py\n'}
+[6.766349] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_my_trimble_msg.py\n'}
+[6.766710] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_r9s_gps.py\n'}
+[6.767144] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_rm_cmsg.py\n'}
+[6.767355] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_telemetrymsg.py\n'}
+[6.768007] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/srv/__init__.py\n'}
+[6.768202] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/srv/_ap_res_conf.py\n'}
+[6.768365] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/srv/_next_target.py\n'}
+[6.768611] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/srv/_send_string.py\n'}
+[6.768810] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/srv/_speed_values.py\n'}
+[6.769549] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.770267] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.770805] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.771324] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__python.so\n'}
+[6.772317] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/msg/MyGPSmsg.idl\n'}
+[6.772942] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/msg/Telemetrymsg.idl\n'}
+[6.773907] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SendString.idl\n'}
+[6.774447] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/ApRESConf.idl\n'}
+[6.775138] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SpeedValues.idl\n'}
+[6.775853] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/NextTarget.idl\n'}
+[6.776542] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/msg/MyGPSmsg.msg\n'}
+[6.777239] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/msg/Telemetrymsg.msg\n'}
+[6.777942] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SendString.srv\n'}
+[6.778653] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SendString_Request.msg\n'}
+[6.779373] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SendString_Response.msg\n'}
+[6.780073] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/ApRESConf.srv\n'}
+[6.780776] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/ApRESConf_Request.msg\n'}
+[6.781473] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/ApRESConf_Response.msg\n'}
+[6.782166] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SpeedValues.srv\n'}
+[6.783120] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SpeedValues_Request.msg\n'}
+[6.784139] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SpeedValues_Response.msg\n'}
+[6.785139] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/NextTarget.srv\n'}
+[6.786130] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/NextTarget_Request.msg\n'}
+[6.786981] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/NextTarget_Response.msg\n'}
+[6.788462] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/ament_index/resource_index/package_run_dependencies/interfaces_subzero\n'}
+[6.789749] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/ament_index/resource_index/parent_prefix_path/interfaces_subzero\n'}
+[6.790969] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/ament_prefix_path.sh\n'}
+[6.791721] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/ament_prefix_path.dsv\n'}
+[6.792686] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/path.sh\n'}
+[6.793384] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/path.dsv\n'}
+[6.794334] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/local_setup.bash\n'}
+[6.795296] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/local_setup.sh\n'}
+[6.796469] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/local_setup.zsh\n'}
+[6.797173] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/local_setup.dsv\n'}
+[6.797743] (interfaces_subzero) StdoutLine: {'line': b'-- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/package.dsv\n'}
+[6.812562] (-) TimerEvent: {}
+[6.814952] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/ament_index/resource_index/packages/interfaces_subzero\n'}
+[6.815901] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/rosidl_cmake-extras.cmake\n'}
+[6.816668] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.817627] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.818381] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.819208] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.819862] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.820468] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.821141] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzeroConfig.cmake\n'}
+[6.821469] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzeroConfig-version.cmake\n'}
+[6.822067] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/package.xml\n'}
+[6.822574] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_generator_c.so\n'}
+[6.823199] (interfaces_subzero) StdoutLine: {'line': b'-- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_generator_c.so" to ""\n'}
+[6.825334] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_introspection_c.so\n'}
+[6.825981] (interfaces_subzero) StdoutLine: {'line': b'-- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.826285] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_c.so\n'}
+[6.826920] (interfaces_subzero) StdoutLine: {'line': b'-- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_c.so" to ""\n'}
+[6.828008] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_introspection_cpp.so\n'}
+[6.828760] (interfaces_subzero) StdoutLine: {'line': b'-- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.829818] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_cpp.so\n'}
+[6.830390] (interfaces_subzero) StdoutLine: {'line': b'-- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_cpp.so" to ""\n'}
+[6.879689] (interfaces_subzero) StdoutLine: {'line': b"Compiling '/home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/__init__.py'...\n"}
+[6.883953] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_generator_cExport.cmake\n'}
+[6.884087] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.884693] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.884806] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.885142] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_cExport.cmake\n'}
+[6.885257] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.885569] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_generator_cppExport.cmake\n'}
+[6.886183] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.886290] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.886877] (interfaces_subzero) StdoutLine: {'line': b'-- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_cppExport.cmake\n'}
+[6.886984] (interfaces_subzero) StdoutLine: {'line': b'-- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.888882] (interfaces_subzero) CommandEnded: {'returncode': 0}
+[6.912661] (-) TimerEvent: {}
+[7.000949] (interfaces_subzero) JobEnded: {'identifier': 'interfaces_subzero', 'rc': 0}
+[7.001850] (-) EventReactorShutdown: {}

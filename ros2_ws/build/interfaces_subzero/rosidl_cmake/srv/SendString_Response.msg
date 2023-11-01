@@ -1,0 +1,2 @@
+
+bool msg_sent

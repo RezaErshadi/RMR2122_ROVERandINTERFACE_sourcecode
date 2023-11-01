@@ -1,0 +1,24 @@
+[0.189s] Invoking command in '/home/subzero/ros2_ws/build/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1
+[0.365s] running develop
+[0.466s] running egg_info
+[0.466s] writing subzero_v1.egg-info/PKG-INFO
+[0.467s] writing dependency_links to subzero_v1.egg-info/dependency_links.txt
+[0.467s] writing entry points to subzero_v1.egg-info/entry_points.txt
+[0.467s] writing requirements to subzero_v1.egg-info/requires.txt
+[0.467s] writing top-level names to subzero_v1.egg-info/top_level.txt
+[0.493s] reading manifest file 'subzero_v1.egg-info/SOURCES.txt'
+[0.494s] writing manifest file 'subzero_v1.egg-info/SOURCES.txt'
+[0.520s] running build_ext
+[0.520s] Creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero-v1.egg-link (link to .)
+[0.521s] Installing ARK script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.521s] Installing ApRES script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.522s] Installing Arduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.522s] Installing Dr script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.522s] Installing Driving script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.523s] Installing Garmin script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.523s] Installing Radio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.523s] Installing Trimble script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.523s] 
+[0.523s] Installed /home/subzero/ros2_ws/build/subzero_v1
+[0.523s] running install_data
+[0.546s] Invoked command in '/home/subzero/ros2_ws/build/subzero_v1' returned '0': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1

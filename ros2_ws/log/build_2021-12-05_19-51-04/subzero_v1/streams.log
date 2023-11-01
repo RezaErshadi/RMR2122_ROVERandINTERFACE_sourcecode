@@ -1,0 +1,75 @@
+[0.236s] Invoking command in '/home/subzero/ros2_ws/build/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --uninstall --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build
+[0.457s] running develop
+[0.561s] Removing /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero-v1.egg-link (link to .)
+[0.581s] Invoked command in '/home/subzero/ros2_ws/build/subzero_v1' returned '0': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --uninstall --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build
+[0.581s] Invoking command in '/home/subzero/ros2_ws/src/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subzero_v1 build --build-base /home/subzero/ros2_ws/build/subzero_v1/build install --prefix /home/subzero/ros2_ws/install/subzero_v1 --record /home/subzero/ros2_ws/build/subzero_v1/install.log --single-version-externally-managed
+[0.752s] running egg_info
+[0.753s] writing ../../build/subzero_v1/subzero_v1.egg-info/PKG-INFO
+[0.753s] writing dependency_links to ../../build/subzero_v1/subzero_v1.egg-info/dependency_links.txt
+[0.754s] writing entry points to ../../build/subzero_v1/subzero_v1.egg-info/entry_points.txt
+[0.754s] writing requirements to ../../build/subzero_v1/subzero_v1.egg-info/requires.txt
+[0.754s] writing top-level names to ../../build/subzero_v1/subzero_v1.egg-info/top_level.txt
+[0.792s] reading manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+[0.793s] writing manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+[0.793s] running build
+[0.793s] running build_py
+[0.795s] copying subzero_v1/Radio.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.795s] copying subzero_v1/Garmin.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.795s] copying subzero_v1/Dr.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.795s] copying subzero_v1/__init__.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.795s] copying subzero_v1/Arduino.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.795s] copying subzero_v1/ARK.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.795s] copying subzero_v1/Driving.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.796s] copying subzero_v1/Trimble.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.796s] copying subzero_v1/ApRES.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.796s] creating /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules
+[0.796s] copying subzero_v1/submodules/DeltaTime.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules
+[0.796s] copying subzero_v1/submodules/__init__.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules
+[0.796s] copying subzero_v1/submodules/apreshttp.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules
+[0.796s] copying subzero_v1/submodules/ClassGpsStreamer.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules
+[0.797s] running install
+[0.798s] running install_lib
+[0.798s] creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.799s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Radio.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.799s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Garmin.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.799s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Dr.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.799s] creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules
+[0.799s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/DeltaTime.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/__init__.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/apreshttp.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/submodules/ClassGpsStreamer.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/__init__.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Arduino.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/ARK.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Driving.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/Trimble.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.800s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/ApRES.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.800s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Radio.py to Radio.cpython-38.pyc
+[0.803s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Garmin.py to Garmin.cpython-38.pyc
+[0.803s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Dr.py to Dr.cpython-38.pyc
+[0.804s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/DeltaTime.py to DeltaTime.cpython-38.pyc
+[0.805s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/__init__.py to __init__.cpython-38.pyc
+[0.805s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/apreshttp.py to apreshttp.cpython-38.pyc
+[0.809s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/submodules/ClassGpsStreamer.py to ClassGpsStreamer.cpython-38.pyc
+[0.810s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/__init__.py to __init__.cpython-38.pyc
+[0.810s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Arduino.py to Arduino.cpython-38.pyc
+[0.811s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/ARK.py to ARK.cpython-38.pyc
+[0.812s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Driving.py to Driving.cpython-38.pyc
+[0.815s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/Trimble.py to Trimble.cpython-38.pyc
+[0.815s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/ApRES.py to ApRES.cpython-38.pyc
+[0.816s] running install_data
+[0.817s] copying package.xml -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+[0.817s] copying launch/subzero_v1.launch.py -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+[0.817s] running install_egg_info
+[0.819s] Copying ../../build/subzero_v1/subzero_v1.egg-info to /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1-0.0.0-py3.8.egg-info
+[0.820s] running install_scripts
+[0.835s] Installing ARK script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.836s] Installing ApRES script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.836s] Installing Arduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.836s] Installing Dr script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.836s] Installing Driving script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.836s] Installing Garmin script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.837s] Installing Radio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.837s] Installing Trimble script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.837s] writing list of installed files to '/home/subzero/ros2_ws/build/subzero_v1/install.log'
+[0.856s] Invoked command in '/home/subzero/ros2_ws/src/subzero_v1' returned '0': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subzero_v1 build --build-base /home/subzero/ros2_ws/build/subzero_v1/build install --prefix /home/subzero/ros2_ws/install/subzero_v1 --record /home/subzero/ros2_ws/build/subzero_v1/install.log --single-version-externally-managed

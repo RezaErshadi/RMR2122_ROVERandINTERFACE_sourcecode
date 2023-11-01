@@ -1,0 +1,10 @@
+[0.185s] Invoking command in '/home/subzero/ros2_ws/build/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1
+[0.362s] running develop
+[0.462s] running egg_info
+[0.462s] writing subzero_v1.egg-info/PKG-INFO
+[0.463s] writing dependency_links to subzero_v1.egg-info/dependency_links.txt
+[0.463s] writing entry points to subzero_v1.egg-info/entry_points.txt
+[0.463s] writing requirements to subzero_v1.egg-info/requires.txt
+[0.463s] writing top-level names to subzero_v1.egg-info/top_level.txt
+[0.489s] error: package directory 'subzero_v1/submodules' does not exist
+[0.506s] Invoked command in '/home/subzero/ros2_ws/build/subzero_v1' returned '1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1

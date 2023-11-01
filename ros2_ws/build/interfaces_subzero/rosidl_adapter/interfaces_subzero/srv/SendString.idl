@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces_subzero/srv/SendString.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces_subzero {
+  module srv {
+    struct SendString_Request {
+      string data;
+    };
+    struct SendString_Response {
+      boolean msg_sent;
+    };
+  };
+};

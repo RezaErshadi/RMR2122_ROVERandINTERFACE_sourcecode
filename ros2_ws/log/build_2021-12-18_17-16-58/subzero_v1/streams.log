@@ -1,0 +1,27 @@
+[0.227s] Invoking command in '/home/subzero/ros2_ws/build/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1
+[0.443s] running develop
+[0.543s] running egg_info
+[0.543s] writing subzero_v1.egg-info/PKG-INFO
+[0.543s] writing dependency_links to subzero_v1.egg-info/dependency_links.txt
+[0.544s] writing entry points to subzero_v1.egg-info/entry_points.txt
+[0.544s] writing requirements to subzero_v1.egg-info/requires.txt
+[0.544s] writing top-level names to subzero_v1.egg-info/top_level.txt
+[0.569s] reading manifest file 'subzero_v1.egg-info/SOURCES.txt'
+[0.570s] writing manifest file 'subzero_v1.egg-info/SOURCES.txt'
+[0.648s] running build_ext
+[0.649s] Creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero-v1.egg-link (link to .)
+[0.650s] Installing ApRES script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.650s] Installing Arduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.651s] Installing AutoDrive script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.651s] Installing Garmin script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.651s] Installing LogWriter script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.651s] Installing ManualDrive script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.651s] Installing PingPongRadio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.652s] Installing Radio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.652s] Installing Telemetry script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.652s] Installing Trimble script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.652s] Installing WriteSpeed script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.652s] 
+[0.652s] Installed /home/subzero/ros2_ws/build/subzero_v1
+[0.652s] running install_data
+[0.676s] Invoked command in '/home/subzero/ros2_ws/build/subzero_v1' returned '0': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1

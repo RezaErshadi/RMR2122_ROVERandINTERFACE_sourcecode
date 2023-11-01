@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces_subzero/srv/NextTarget.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces_subzero {
+  module srv {
+    struct NextTarget_Request {
+      int64 i_next_target;
+
+      double next_target_lat;
+
+      double next_target_lon;
+
+      double bearing_to_next_target;
+
+      double dist_to_next_target;
+
+      double dist_from_last_ref;
+    };
+    struct NextTarget_Response {
+      boolean msg_sent;
+    };
+  };
+};

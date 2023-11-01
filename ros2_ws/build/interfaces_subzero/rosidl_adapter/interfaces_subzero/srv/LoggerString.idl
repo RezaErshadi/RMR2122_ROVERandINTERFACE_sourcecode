@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces_subzero/srv/LoggerString.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces_subzero {
+  module srv {
+    struct LoggerString_Request {
+      string type;
+
+      string data;
+    };
+    struct LoggerString_Response {
+      boolean msg_sent;
+    };
+  };
+};

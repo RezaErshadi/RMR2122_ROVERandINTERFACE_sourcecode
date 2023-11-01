@@ -1,0 +1,32 @@
+[0.195s] Invoking command in '/home/subzero/ros2_ws/src/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subzero_v1 build --build-base /home/subzero/ros2_ws/build/subzero_v1/build install --prefix /home/subzero/ros2_ws/install/subzero_v1 --record /home/subzero/ros2_ws/build/subzero_v1/install.log --single-version-externally-managed
+[0.365s] running egg_info
+[0.366s] creating ../../build/subzero_v1/subzero_v1.egg-info
+[0.366s] writing ../../build/subzero_v1/subzero_v1.egg-info/PKG-INFO
+[0.367s] writing dependency_links to ../../build/subzero_v1/subzero_v1.egg-info/dependency_links.txt
+[0.367s] writing entry points to ../../build/subzero_v1/subzero_v1.egg-info/entry_points.txt
+[0.367s] writing requirements to ../../build/subzero_v1/subzero_v1.egg-info/requires.txt
+[0.367s] writing top-level names to ../../build/subzero_v1/subzero_v1.egg-info/top_level.txt
+[0.368s] writing manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+[0.394s] reading manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+[0.395s] writing manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+[0.395s] running build
+[0.395s] running build_py
+[0.395s] creating /home/subzero/ros2_ws/build/subzero_v1/build
+[0.395s] creating /home/subzero/ros2_ws/build/subzero_v1/build/lib
+[0.395s] creating /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.395s] copying subzero_v1/__init__.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.395s] running install
+[0.396s] running install_lib
+[0.397s] creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.397s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/__init__.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.397s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/__init__.py to __init__.cpython-38.pyc
+[0.398s] running install_data
+[0.399s] creating /home/subzero/ros2_ws/install/subzero_v1/share/ament_index
+[0.399s] creating /home/subzero/ros2_ws/install/subzero_v1/share/ament_index/resource_index
+[0.399s] creating /home/subzero/ros2_ws/install/subzero_v1/share/ament_index/resource_index/packages
+[0.399s] copying resource/subzero_v1 -> /home/subzero/ros2_ws/install/subzero_v1/share/ament_index/resource_index/packages
+[0.399s] copying package.xml -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+[0.399s] running install_egg_info
+[0.400s] Copying ../../build/subzero_v1/subzero_v1.egg-info to /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1-0.0.0-py3.8.egg-info
+[0.401s] running install_scripts
+[0.414s] writing list of installed files to '/home/subzero/ros2_ws/build/subzero_v1/install.log'

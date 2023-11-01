@@ -1,0 +1,282 @@
+[0.025s] Invoking command in '/home/subzero/ros2_ws/build/interfaces_subzero': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake /home/subzero/ros2_ws/src/interfaces_subzero -DCMAKE_INSTALL_PREFIX=/home/subzero/ros2_ws/install/interfaces_subzero
+[0.079s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.106s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.106s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.283s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.474s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.611s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.739s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.740s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.767s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.768s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.784s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.813s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.815s] -- Added test 'lint_cmake' to check CMake code style
+[0.816s] -- Added test 'xmllint' to check XML markup files
+[0.825s] -- Configuring done
+[0.887s] -- Generating done
+[0.889s] -- Build files have been written to: /home/subzero/ros2_ws/build/interfaces_subzero
+[0.896s] Invoked command in '/home/subzero/ros2_ws/build/interfaces_subzero' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake /home/subzero/ros2_ws/src/interfaces_subzero -DCMAKE_INSTALL_PREFIX=/home/subzero/ros2_ws/install/interfaces_subzero
+[0.898s] Invoking command in '/home/subzero/ros2_ws/build/interfaces_subzero': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake --build /home/subzero/ros2_ws/build/interfaces_subzero -- -j8 -l8
+[0.941s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.942s] [35m[1mScanning dependencies of target interfaces_subzero__cpp[0m
+[0.953s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.327s] [  4%] Built target interfaces_subzero__cpp
+[1.357s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_generator_c[0m
+[1.374s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.376s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.377s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.384s] [ 12%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/srv/detail/send_string__functions.c.o[0m
+[1.387s] [ 14%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/srv/detail/ap_res_conf__functions.c.o[0m
+[1.389s] [ 17%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_generator_c.dir/rosidl_generator_c/interfaces_subzero/msg/detail/my_gp_smsg__functions.c.o[0m
+[1.591s] [ 19%] [32m[1mLinking C shared library libinterfaces_subzero__rosidl_generator_c.so[0m
+[1.637s] [ 19%] Built target interfaces_subzero__rosidl_generator_c
+[1.647s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.647s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.765s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_introspection_cpp[0m
+[1.781s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/msg/detail/my_gp_smsg__type_support.cpp.o[0m
+[1.783s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/srv/detail/send_string__type_support.cpp.o[0m
+[1.783s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_subzero/srv/detail/ap_res_conf__type_support.cpp.o[0m
+[1.790s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_cpp[0m
+[1.804s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/srv/send_string__type_support.cpp.o[0m
+[1.807s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/msg/my_gp_smsg__type_support.cpp.o[0m
+[1.905s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_fastrtps_cpp[0m
+[1.927s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/msg/detail/dds_fastrtps/my_gp_smsg__type_support.cpp.o[0m
+[2.022s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_c[0m
+[2.040s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/msg/my_gp_smsg__type_support.cpp.o[0m
+[2.102s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/srv/send_string__type_support.cpp.o[0m
+[2.148s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_introspection_c[0m
+[2.153s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_subzero/srv/ap_res_conf__type_support.cpp.o[0m
+[2.173s] [ 44%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/msg/detail/my_gp_smsg__type_support.c.o[0m
+[2.207s] [ 46%] [32m[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_c.so[0m
+[2.223s] [ 48%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/srv/detail/send_string__type_support.c.o[0m
+[2.270s] [ 48%] Built target interfaces_subzero__rosidl_typesupport_c
+[2.278s] [ 51%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_subzero/srv/detail/ap_res_conf__type_support.c.o[0m
+[2.283s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_subzero/srv/ap_res_conf__type_support.cpp.o[0m
+[2.333s] [ 55%] [32m[1mLinking C shared library libinterfaces_subzero__rosidl_typesupport_introspection_c.so[0m
+[2.344s] [ 57%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/srv/detail/dds_fastrtps/send_string__type_support.cpp.o[0m
+[2.376s] [ 57%] Built target interfaces_subzero__rosidl_typesupport_introspection_c
+[2.386s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_subzero/srv/detail/dds_fastrtps/ap_res_conf__type_support.cpp.o[0m
+[2.489s] [ 61%] [32m[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_introspection_cpp.so[0m
+[2.598s] [ 61%] Built target interfaces_subzero__rosidl_typesupport_introspection_cpp
+[2.624s] [ 63%] [32m[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_cpp.so[0m
+[2.661s] [ 63%] Built target interfaces_subzero__rosidl_typesupport_cpp
+[2.853s] [ 65%] [32m[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.921s] [ 65%] Built target interfaces_subzero__rosidl_typesupport_fastrtps_cpp
+[2.932s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.274s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_fastrtps_c[0m
+[3.288s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/msg/detail/my_gp_smsg__type_support_c.cpp.o[0m
+[3.288s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/srv/detail/send_string__type_support_c.cpp.o[0m
+[3.288s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_subzero/srv/detail/ap_res_conf__type_support_c.cpp.o[0m
+[3.667s] [ 76%] [32m[1mLinking CXX shared library libinterfaces_subzero__rosidl_typesupport_fastrtps_c.so[0m
+[3.737s] [ 76%] Built target interfaces_subzero__rosidl_typesupport_fastrtps_c
+[3.774s] [ 76%] Built target interfaces_subzero
+[3.785s] [35m[1mScanning dependencies of target interfaces_subzero__py[0m
+[3.797s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.453s] [ 78%] Built target interfaces_subzero__py
+[4.466s] [35m[1mScanning dependencies of target interfaces_subzero__python[0m
+[4.484s] [ 85%] [32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/srv/_ap_res_conf_s.c.o[0m
+[4.484s] [ 85%] [32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/srv/_send_string_s.c.o[0m
+[4.484s] [ 85%] [32mBuilding C object CMakeFiles/interfaces_subzero__python.dir/rosidl_generator_py/interfaces_subzero/msg/_my_gp_smsg_s.c.o[0m
+[4.660s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_subzero/libinterfaces_subzero__python.so[0m
+[4.689s] [ 87%] Built target interfaces_subzero__python
+[4.701s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_c__pyext[0m
+[4.701s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_introspection_c__pyext[0m
+[4.701s] [35m[1mScanning dependencies of target interfaces_subzero__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.715s] [ 89%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces_subzero/_interfaces_subzero_s.ep.rosidl_typesupport_c.c.o[0m
+[4.717s] [ 91%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces_subzero/_interfaces_subzero_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.718s] [ 93%] [32mBuilding C object CMakeFiles/interfaces_subzero__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces_subzero/_interfaces_subzero_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.816s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.816s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.816s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.847s] [100%] Built target interfaces_subzero__rosidl_typesupport_c__pyext
+[4.847s] [100%] Built target interfaces_subzero__rosidl_typesupport_introspection_c__pyext
+[4.870s] [100%] Built target interfaces_subzero__rosidl_typesupport_fastrtps_c__pyext
+[4.879s] Invoked command in '/home/subzero/ros2_ws/build/interfaces_subzero' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake --build /home/subzero/ros2_ws/build/interfaces_subzero -- -j8 -l8
+[4.943s] Invoking command in '/home/subzero/ros2_ws/build/interfaces_subzero': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake --install /home/subzero/ros2_ws/build/interfaces_subzero
+[4.950s] -- Install configuration: ""
+[4.951s] -- Execute custom install script
+[4.981s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/ament_index/resource_index/rosidl_interfaces/interfaces_subzero
+[4.985s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__functions.h
+[4.986s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__struct.h
+[4.987s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__type_support.h
+[4.988s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__functions.h
+[4.989s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__struct.h
+[4.989s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__type_support.h
+[4.990s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__functions.h
+[4.991s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__struct.h
+[4.992s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__type_support.h
+[4.993s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__functions.h
+[4.993s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__struct.h
+[4.994s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__type_support.h
+[4.995s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__functions.h
+[4.996s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__struct.h
+[4.996s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__type_support.h
+[4.997s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__functions.h
+[4.998s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__struct.h
+[4.998s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__type_support.h
+[4.999s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/gg_amsg.h
+[5.000s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_garmin_msg.h
+[5.001s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_gp_smsg.h
+[5.002s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_trimble_msg.h
+[5.002s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/r9s_gps.h
+[5.003s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rm_cmsg.h
+[5.004s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rosidl_generator_c__visibility_control.h
+[5.004s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/ap_res_conf.h
+[5.029s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__functions.h
+[5.050s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__struct.h
+[5.061s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__type_support.h
+[5.070s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__functions.h
+[5.070s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__struct.h
+[5.070s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__type_support.h
+[5.071s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/send_string.h
+[5.071s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/library_path.sh
+[5.071s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/library_path.dsv
+[5.072s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__rosidl_typesupport_fastrtps_c.h
+[5.073s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__rosidl_typesupport_fastrtps_c.h
+[5.073s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__rosidl_typesupport_fastrtps_c.h
+[5.073s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__rosidl_typesupport_fastrtps_c.h
+[5.074s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__rosidl_typesupport_fastrtps_c.h
+[5.074s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__rosidl_typesupport_fastrtps_c.h
+[5.074s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.075s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__rosidl_typesupport_fastrtps_c.h
+[5.082s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__rosidl_typesupport_fastrtps_c.h
+[5.082s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_fastrtps_c.so
+[5.083s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.083s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.084s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.084s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.085s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__rosidl_typesupport_fastrtps_cpp.hpp
+[5.085s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.085s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.085s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__rosidl_typesupport_fastrtps_cpp.hpp
+[5.093s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__rosidl_typesupport_fastrtps_cpp.hpp
+[5.093s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_fastrtps_cpp.so
+[5.094s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__rosidl_typesupport_introspection_c.h
+[5.094s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__rosidl_typesupport_introspection_c.h
+[5.095s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__rosidl_typesupport_introspection_c.h
+[5.095s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__rosidl_typesupport_introspection_c.h
+[5.095s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__rosidl_typesupport_introspection_c.h
+[5.096s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__rosidl_typesupport_introspection_c.h
+[5.096s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.096s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__rosidl_typesupport_introspection_c.h
+[5.103s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__rosidl_typesupport_introspection_c.h
+[5.104s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__builder.hpp
+[5.105s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__struct.hpp
+[5.105s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__traits.hpp
+[5.105s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__builder.hpp
+[5.106s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__struct.hpp
+[5.106s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__traits.hpp
+[5.106s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__builder.hpp
+[5.107s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__struct.hpp
+[5.107s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__traits.hpp
+[5.108s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__builder.hpp
+[5.108s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__struct.hpp
+[5.108s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__traits.hpp
+[5.109s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__builder.hpp
+[5.109s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__struct.hpp
+[5.109s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__traits.hpp
+[5.110s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__builder.hpp
+[5.110s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__struct.hpp
+[5.111s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__traits.hpp
+[5.111s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/gg_amsg.hpp
+[5.111s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_garmin_msg.hpp
+[5.112s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_gp_smsg.hpp
+[5.112s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/my_trimble_msg.hpp
+[5.112s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/r9s_gps.hpp
+[5.113s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/rm_cmsg.hpp
+[5.113s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/ap_res_conf.hpp
+[5.120s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__builder.hpp
+[5.127s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__struct.hpp
+[5.134s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__traits.hpp
+[5.140s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__builder.hpp
+[5.141s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__struct.hpp
+[5.141s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__traits.hpp
+[5.141s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/send_string.hpp
+[5.142s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/gg_amsg__rosidl_typesupport_introspection_cpp.hpp
+[5.143s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_garmin_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.143s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_gp_smsg__rosidl_typesupport_introspection_cpp.hpp
+[5.143s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/my_trimble_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.144s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/r9s_gps__rosidl_typesupport_introspection_cpp.hpp
+[5.144s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/msg/detail/rm_cmsg__rosidl_typesupport_introspection_cpp.hpp
+[5.144s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/ap_res_conf__rosidl_typesupport_introspection_cpp.hpp
+[5.151s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/include/interfaces_subzero/srv/detail/send_string__rosidl_typesupport_introspection_cpp.hpp
+[5.152s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/pythonpath.sh
+[5.152s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/pythonpath.dsv
+[5.152s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/__init__.py
+[5.153s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/__init__.py
+[5.153s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_gg_amsg.py
+[5.153s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_my_garmin_msg.py
+[5.153s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_my_gp_smsg.py
+[5.154s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_my_trimble_msg.py
+[5.154s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_r9s_gps.py
+[5.154s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/msg/_rm_cmsg.py
+[5.155s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/srv/__init__.py
+[5.155s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/srv/_ap_res_conf.py
+[5.162s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/srv/_send_string.py
+[5.163s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.164s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.164s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.164s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__python.so
+[5.165s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/msg/MyGPSmsg.idl
+[5.165s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SendString.idl
+[5.166s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/ApRESConf.idl
+[5.173s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/msg/MyGPSmsg.msg
+[5.173s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SendString.srv
+[5.174s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SendString_Request.msg
+[5.174s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/SendString_Response.msg
+[5.174s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/ApRESConf.srv
+[5.181s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/ApRESConf_Request.msg
+[5.188s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/srv/ApRESConf_Response.msg
+[5.195s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/ament_index/resource_index/package_run_dependencies/interfaces_subzero
+[5.196s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/ament_index/resource_index/parent_prefix_path/interfaces_subzero
+[5.197s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/ament_prefix_path.sh
+[5.197s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/ament_prefix_path.dsv
+[5.197s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/path.sh
+[5.198s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/environment/path.dsv
+[5.198s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/local_setup.bash
+[5.198s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/local_setup.sh
+[5.199s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/local_setup.zsh
+[5.199s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/local_setup.dsv
+[5.199s] -- Symlinking: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/package.dsv
+[5.207s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/ament_index/resource_index/packages/interfaces_subzero
+[5.207s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/rosidl_cmake-extras.cmake
+[5.208s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.208s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/ament_cmake_export_libraries-extras.cmake
+[5.208s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/ament_cmake_export_targets-extras.cmake
+[5.209s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.209s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.210s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.210s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzeroConfig.cmake
+[5.210s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzeroConfig-version.cmake
+[5.210s] -- Up-to-date symlink: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/package.xml
+[5.211s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_generator_c.so
+[5.211s] -- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_generator_c.so" to ""
+[5.212s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_introspection_c.so
+[5.213s] -- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_introspection_c.so" to ""
+[5.213s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_c.so
+[5.213s] -- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_c.so" to ""
+[5.214s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_introspection_cpp.so
+[5.214s] -- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_introspection_cpp.so" to ""
+[5.215s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_cpp.so
+[5.215s] -- Set runtime path of "/home/subzero/ros2_ws/install/interfaces_subzero/lib/libinterfaces_subzero__rosidl_typesupport_cpp.so" to ""
+[5.245s] Compiling '/home/subzero/ros2_ws/install/interfaces_subzero/lib/python3.8/site-packages/interfaces_subzero/__init__.py'...
+[5.249s] -- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_generator_cExport.cmake
+[5.249s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_generator_cExport-noconfig.cmake
+[5.249s] -- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_introspection_cExport.cmake
+[5.250s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.250s] -- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_cExport.cmake
+[5.250s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_cExport-noconfig.cmake
+[5.250s] -- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_generator_cppExport.cmake
+[5.251s] -- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_introspection_cppExport.cmake
+[5.251s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.252s] -- Up-to-date: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_cppExport.cmake
+[5.252s] -- Installing: /home/subzero/ros2_ws/install/interfaces_subzero/share/interfaces_subzero/cmake/interfaces_subzero__rosidl_typesupport_cppExport-noconfig.cmake
+[5.255s] Invoked command in '/home/subzero/ros2_ws/build/interfaces_subzero' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake --install /home/subzero/ros2_ws/build/interfaces_subzero

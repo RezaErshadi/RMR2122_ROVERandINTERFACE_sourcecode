@@ -1,0 +1,22 @@
+[0.185s] Invoking command in '/home/subzero/ros2_ws/build/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1
+[0.363s] running develop
+[0.464s] running egg_info
+[0.464s] writing subzero_v1.egg-info/PKG-INFO
+[0.464s] writing dependency_links to subzero_v1.egg-info/dependency_links.txt
+[0.464s] writing entry points to subzero_v1.egg-info/entry_points.txt
+[0.464s] writing requirements to subzero_v1.egg-info/requires.txt
+[0.464s] writing top-level names to subzero_v1.egg-info/top_level.txt
+[0.490s] reading manifest file 'subzero_v1.egg-info/SOURCES.txt'
+[0.491s] writing manifest file 'subzero_v1.egg-info/SOURCES.txt'
+[0.517s] running build_ext
+[0.517s] Creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero-v1.egg-link (link to .)
+[0.518s] Installing nodeARK script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.518s] Installing nodeArduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.519s] Installing nodeR9sGPS script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.519s] Installing nodeRadio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.519s] 
+[0.519s] Installed /home/subzero/ros2_ws/build/subzero_v1
+[0.519s] running install_data
+[0.519s] copying package.xml -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+[0.519s] copying launch/subzero_v1.launch.py -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+[0.541s] Invoked command in '/home/subzero/ros2_ws/build/subzero_v1' returned '0': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1

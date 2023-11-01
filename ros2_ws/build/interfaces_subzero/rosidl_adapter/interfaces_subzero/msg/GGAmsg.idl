@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces_subzero/msg/GGAmsg.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces_subzero {
+  module msg {
+    struct GGAmsg {
+      string msg;
+
+      string time;
+
+      double lat;
+
+      double lon;
+
+      double alt;
+
+      double geoid;
+    };
+  };
+};

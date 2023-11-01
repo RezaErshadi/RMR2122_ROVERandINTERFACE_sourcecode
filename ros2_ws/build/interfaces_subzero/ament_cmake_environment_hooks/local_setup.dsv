@@ -1,0 +1,4 @@
+source;share/interfaces_subzero/environment/ament_prefix_path.sh
+source;share/interfaces_subzero/environment/library_path.sh
+source;share/interfaces_subzero/environment/path.sh
+source;share/interfaces_subzero/environment/pythonpath.sh

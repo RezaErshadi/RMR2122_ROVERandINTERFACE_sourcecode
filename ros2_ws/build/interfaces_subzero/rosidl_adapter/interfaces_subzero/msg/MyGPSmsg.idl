@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces_subzero/msg/MyGPSmsg.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces_subzero {
+  module msg {
+    struct MyGPSmsg {
+      string gps;
+
+      string nmea;
+
+      string msg;
+
+      int64 iqual;
+
+      string qual;
+
+      string date;
+
+      string time;
+
+      double lat;
+
+      double lon;
+
+      double alt;
+
+      double geoid;
+
+      double speed;
+
+      double course;
+    };
+  };
+};

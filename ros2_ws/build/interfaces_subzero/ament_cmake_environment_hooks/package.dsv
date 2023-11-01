@@ -1,0 +1,4 @@
+source;share/interfaces_subzero/local_setup.bash
+source;share/interfaces_subzero/local_setup.dsv
+source;share/interfaces_subzero/local_setup.sh
+source;share/interfaces_subzero/local_setup.zsh

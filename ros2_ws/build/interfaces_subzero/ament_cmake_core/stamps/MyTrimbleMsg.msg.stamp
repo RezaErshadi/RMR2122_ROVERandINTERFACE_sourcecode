@@ -1,0 +1,15 @@
+bool gps_connection
+bool gps_data
+float64 age
+string gga_msg
+string gga_time
+float64 rover_lat
+float64 rover_lon
+float64 rover_alt
+float64 rover_geoid
+string rmc_msg
+string rmc_time
+string rover_date
+float64 rover_speed
+float64 rover_course
+string gps_tel

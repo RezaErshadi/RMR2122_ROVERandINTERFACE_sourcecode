@@ -1,0 +1,2 @@
+Invoking command in '/home/subzero/ros2_ws/build/interfaces_subzero': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake --build /home/subzero/ros2_ws/build/interfaces_subzero -- -j8 -l8
+Invoked command in '/home/subzero/ros2_ws/build/interfaces_subzero' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake --build /home/subzero/ros2_ws/build/interfaces_subzero -- -j8 -l8

@@ -1,0 +1,13 @@
+[console_scripts]
+ApRES = subzero_v1.ApRES:main
+Arduino = subzero_v1.Arduino:main
+AutoDrive = subzero_v1.AutoDrive:main
+Garmin = subzero_v1.Garmin:main
+LogWriter = subzero_v1.LogWriter:main
+ManualDrive = subzero_v1.ManualDrive:main
+PingPongRadio = subzero_v1.PingPongRadio:main
+Radio = subzero_v1.Radio:main
+Telemetry = subzero_v1.Telemetry:main
+Trimble = subzero_v1.Trimble:main
+WriteSpeed = subzero_v1.WriteSpeed:main
+

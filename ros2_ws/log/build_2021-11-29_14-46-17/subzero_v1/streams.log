@@ -1,0 +1,20 @@
+[0.188s] Invoking command in '/home/subzero/ros2_ws/build/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1
+[0.364s] running develop
+[0.465s] running egg_info
+[0.466s] writing subzero_v1.egg-info/PKG-INFO
+[0.466s] writing dependency_links to subzero_v1.egg-info/dependency_links.txt
+[0.466s] writing entry points to subzero_v1.egg-info/entry_points.txt
+[0.466s] writing requirements to subzero_v1.egg-info/requires.txt
+[0.466s] writing top-level names to subzero_v1.egg-info/top_level.txt
+[0.492s] reading manifest file 'subzero_v1.egg-info/SOURCES.txt'
+[0.492s] writing manifest file 'subzero_v1.egg-info/SOURCES.txt'
+[0.519s] running build_ext
+[0.519s] Creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero-v1.egg-link (link to .)
+[0.520s] Installing nodeARK script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.520s] Installing nodeArduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.520s] Installing nodeR9sGPS script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.521s] Installing nodeRadio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.521s] 
+[0.521s] Installed /home/subzero/ros2_ws/build/subzero_v1
+[0.521s] running install_data
+[0.541s] Invoked command in '/home/subzero/ros2_ws/build/subzero_v1' returned '0': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/subzero/ros2_ws/install/subzero_v1 --editable --build-directory /home/subzero/ros2_ws/build/subzero_v1/build --no-deps install_data --install-dir /home/subzero/ros2_ws/install/subzero_v1

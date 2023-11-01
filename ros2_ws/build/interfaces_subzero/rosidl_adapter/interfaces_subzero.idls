@@ -1,0 +1,7 @@
+/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:msg/MyGPSmsg.idl
+/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:msg/Telemetrymsg.idl
+/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/SendString.idl
+/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/ApRESConf.idl
+/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/SpeedValues.idl
+/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/NextTarget.idl
+/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/LoggerString.idl

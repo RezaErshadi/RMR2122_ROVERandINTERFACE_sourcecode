@@ -1,0 +1,21 @@
+[0.050s] Invoking command in '/home/subzero/ros2_ws/build/interfaces_subzero': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake --build /home/subzero/ros2_ws/build/interfaces_subzero -- -j8 -l8
+[0.177s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.213s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.213s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.406s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.443s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.630s]   rosidl_generate_interfaces() the passed file 'action/ApRES.action' doesn't
+[0.630s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.630s]   '/home/subzero/ros2_ws/src/interfaces_subzero'
+[0.630s] Call Stack (most recent call first):
+[0.630s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.630s] 
+[0.630s] 
+[0.631s] -- Configuring incomplete, errors occurred!
+[0.631s] See also "/home/subzero/ros2_ws/build/interfaces_subzero/CMakeFiles/CMakeOutput.log".
+[0.636s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[0.637s] Invoked command in '/home/subzero/ros2_ws/build/interfaces_subzero' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subzero/ros2_ws/install/subzero_v1:/opt/ros/foxy /usr/bin/cmake --build /home/subzero/ros2_ws/build/interfaces_subzero -- -j8 -l8

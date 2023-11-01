@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_generator_py/interfaces_subzero/interfaces_subzero_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "interfaces_subzero__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/interfaces_subzero")

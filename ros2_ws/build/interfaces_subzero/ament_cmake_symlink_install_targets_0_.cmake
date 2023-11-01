@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/subzero/ros2_ws/build/interfaces_subzero/libinterfaces_subzero__rosidl_typesupport_fastrtps_c.so" "TARGETS" "interfaces_subzero__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces_subzero/srv/SpeedValues.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces_subzero {
+  module srv {
+    struct SpeedValues_Request {
+      double v_linear;
+
+      double w_angular;
+    };
+    struct SpeedValues_Response {
+      boolean msg_sent;
+    };
+  };
+};

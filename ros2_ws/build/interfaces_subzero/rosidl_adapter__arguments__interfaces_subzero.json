@@ -1,0 +1,12 @@
+{
+  "package_name": "interfaces_subzero",
+  "non_idl_tuples": [
+    "/home/subzero/ros2_ws/src/interfaces_subzero:msg/MyGPSmsg.msg",
+    "/home/subzero/ros2_ws/src/interfaces_subzero:msg/Telemetrymsg.msg",
+    "/home/subzero/ros2_ws/src/interfaces_subzero:srv/SendString.srv",
+    "/home/subzero/ros2_ws/src/interfaces_subzero:srv/ApRESConf.srv",
+    "/home/subzero/ros2_ws/src/interfaces_subzero:srv/SpeedValues.srv",
+    "/home/subzero/ros2_ws/src/interfaces_subzero:srv/NextTarget.srv",
+    "/home/subzero/ros2_ws/src/interfaces_subzero:srv/LoggerString.srv"
+  ]
+}

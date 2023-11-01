@@ -1,0 +1,18 @@
+[0.018s] Invoking command in '/home/subzero/ros2_ws/build/interfaces_subzero': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/subzero/ros2_ws/src/interfaces_subzero -DCMAKE_INSTALL_PREFIX=/home/subzero/ros2_ws/install/interfaces_subzero
+[0.030s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.197s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.330s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.330s]   rosidl_generate_interfaces() the passed file 'srv/SendString.srv' doesn't
+[0.330s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.331s]   '/home/subzero/ros2_ws/src/interfaces_subzero'
+[0.331s] Call Stack (most recent call first):
+[0.331s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.331s] 
+[0.331s] 
+[0.331s] -- Configuring incomplete, errors occurred!
+[0.331s] See also "/home/subzero/ros2_ws/build/interfaces_subzero/CMakeFiles/CMakeOutput.log".
+[0.336s] Invoked command in '/home/subzero/ros2_ws/build/interfaces_subzero' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/subzero/ros2_ws/src/interfaces_subzero -DCMAKE_INSTALL_PREFIX=/home/subzero/ros2_ws/install/interfaces_subzero

@@ -1,0 +1,7 @@
+string msg
+string time
+string date
+float64 lat
+float64 lon
+float64 speed
+float64 course

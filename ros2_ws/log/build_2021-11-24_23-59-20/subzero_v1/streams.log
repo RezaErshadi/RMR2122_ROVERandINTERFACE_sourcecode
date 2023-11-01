@@ -1,0 +1,38 @@
+[0.201s] Invoking command in '/home/subzero/ros2_ws/src/subzero_v1': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subzero_v1 build --build-base /home/subzero/ros2_ws/build/subzero_v1/build install --prefix /home/subzero/ros2_ws/install/subzero_v1 --record /home/subzero/ros2_ws/build/subzero_v1/install.log --single-version-externally-managed
+[0.381s] running egg_info
+[0.382s] writing ../../build/subzero_v1/subzero_v1.egg-info/PKG-INFO
+[0.382s] writing dependency_links to ../../build/subzero_v1/subzero_v1.egg-info/dependency_links.txt
+[0.383s] writing entry points to ../../build/subzero_v1/subzero_v1.egg-info/entry_points.txt
+[0.383s] writing requirements to ../../build/subzero_v1/subzero_v1.egg-info/requires.txt
+[0.383s] writing top-level names to ../../build/subzero_v1/subzero_v1.egg-info/top_level.txt
+[0.411s] reading manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+[0.412s] writing manifest file '../../build/subzero_v1/subzero_v1.egg-info/SOURCES.txt'
+[0.412s] running build
+[0.412s] running build_py
+[0.413s] copying subzero_v1/nodeR9sGPS.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.413s] copying subzero_v1/nodeArduino.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.413s] copying subzero_v1/nodeARK.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.413s] copying subzero_v1/nodeRadio.py -> /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1
+[0.413s] running install
+[0.414s] running install_lib
+[0.415s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/nodeR9sGPS.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.415s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/nodeArduino.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.415s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/nodeARK.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.415s] copying /home/subzero/ros2_ws/build/subzero_v1/build/lib/subzero_v1/nodeRadio.py -> /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1
+[0.416s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/nodeR9sGPS.py to nodeR9sGPS.cpython-38.pyc
+[0.418s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/nodeArduino.py to nodeArduino.cpython-38.pyc
+[0.418s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/nodeARK.py to nodeARK.cpython-38.pyc
+[0.419s] byte-compiling /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1/nodeRadio.py to nodeRadio.cpython-38.pyc
+[0.420s] running install_data
+[0.420s] copying package.xml -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+[0.421s] copying launch/subzero_v1.launch.py -> /home/subzero/ros2_ws/install/subzero_v1/share/subzero_v1
+[0.421s] running install_egg_info
+[0.422s] removing '/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1-0.0.0-py3.8.egg-info' (and everything under it)
+[0.422s] Copying ../../build/subzero_v1/subzero_v1.egg-info to /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero_v1-0.0.0-py3.8.egg-info
+[0.423s] running install_scripts
+[0.438s] Installing nodeARK script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.438s] Installing nodeArduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.439s] Installing nodeR9sGPS script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.439s] Installing nodeRadio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+[0.439s] writing list of installed files to '/home/subzero/ros2_ws/build/subzero_v1/install.log'
+[0.458s] Invoked command in '/home/subzero/ros2_ws/src/subzero_v1' returned '0': PYTHONPATH=/home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subzero_v1 build --build-base /home/subzero/ros2_ws/build/subzero_v1/build install --prefix /home/subzero/ros2_ws/install/subzero_v1 --record /home/subzero/ros2_ws/build/subzero_v1/install.log --single-version-externally-managed

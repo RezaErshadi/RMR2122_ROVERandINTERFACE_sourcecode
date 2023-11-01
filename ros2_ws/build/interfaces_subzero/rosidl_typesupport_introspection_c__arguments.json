@@ -1,0 +1,31 @@
+{
+  "package_name": "interfaces_subzero",
+  "output_dir": "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_typesupport_introspection_c/interfaces_subzero",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:msg/MyGPSmsg.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:msg/Telemetrymsg.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/SendString.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/ApRESConf.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/SpeedValues.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/NextTarget.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero:srv/LoggerString.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero/msg/MyGPSmsg.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero/msg/Telemetrymsg.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero/srv/SendString.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero/srv/ApRESConf.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero/srv/SpeedValues.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero/srv/NextTarget.idl",
+    "/home/subzero/ros2_ws/build/interfaces_subzero/rosidl_adapter/interfaces_subzero/srv/LoggerString.idl"
+  ]
+}

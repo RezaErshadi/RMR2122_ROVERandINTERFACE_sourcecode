@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces_subzero/msg/MyTrimbleMsg.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces_subzero {
+  module msg {
+    struct MyTrimbleMsg {
+      boolean gps_connection;
+
+      boolean gps_data;
+
+      double age;
+
+      string gga_msg;
+
+      string gga_time;
+
+      double rover_lat;
+
+      double rover_lon;
+
+      double rover_alt;
+
+      double rover_geoid;
+
+      string rmc_msg;
+
+      string rmc_time;
+
+      string rover_date;
+
+      double rover_speed;
+
+      double rover_course;
+
+      string gps_tel;
+    };
+  };
+};

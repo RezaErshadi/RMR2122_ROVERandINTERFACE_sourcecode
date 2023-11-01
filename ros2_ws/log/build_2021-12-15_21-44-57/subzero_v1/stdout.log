@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing subzero_v1.egg-info/PKG-INFO
+writing dependency_links to subzero_v1.egg-info/dependency_links.txt
+writing entry points to subzero_v1.egg-info/entry_points.txt
+writing requirements to subzero_v1.egg-info/requires.txt
+writing top-level names to subzero_v1.egg-info/top_level.txt
+reading manifest file 'subzero_v1.egg-info/SOURCES.txt'
+writing manifest file 'subzero_v1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/subzero/ros2_ws/install/subzero_v1/lib/python3.8/site-packages/subzero-v1.egg-link (link to .)
+Installing ApRES script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing Arduino script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing AutoDrive script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing Garmin script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing ManualDrive script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing Radio script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing Telemetry script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing Trimble script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+Installing WriteSpeed script to /home/subzero/ros2_ws/install/subzero_v1/lib/subzero_v1
+
+Installed /home/subzero/ros2_ws/build/subzero_v1
+running install_data
